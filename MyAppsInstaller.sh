@@ -33,3 +33,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.zsh-s
 echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HOME/.zshrc"
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 chsh -s /bin/zsh
+
+# Install VIM
+sudo apt install vim -y
+
+# Install NeoVIM
+sudo apt install neovim -y
