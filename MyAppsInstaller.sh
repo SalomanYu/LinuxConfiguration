@@ -39,3 +39,11 @@ sudo apt install vim -y
 
 # Install NeoVIM
 sudo apt install neovim -y
+sudo apt install snapd -y
+sudo snap install pyright --classic
+
+mkdir -p ~/.config/nvim
+git clone https://github.com/alexey-goloburdin/nvim-config.git
+mv nvim-config/init.vim ~/.config/nvim
+rm -r nvim-config
+notify-send "NeoVIM installed!"
